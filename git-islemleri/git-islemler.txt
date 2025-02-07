@@ -1,9 +1,42 @@
- git clone https://github.com/sehmusekin/git-github-operations.git
-cd C:\Users\sehmu\Desktop\git-github-operations 
+Git Komutları ve Açıklamaları:
+
+git clone https://github.com/sehmusekin/git-github-operations.git
+Uzak depodaki (GitHub) projeyi yerel bilgisayarıma klonlar.
+
+cd C:\Users\sehmu\Desktop\git-github-operations
+Klonlanan depo klasörüne geçiş yapar.
+
 git add .
- git commit -m "iki farkli klasor ve bir dosya eklendi
+Çalışma dizinindeki tüm değişiklikleri staging alanına ekler.
+
+git commit -m "iki farkli klasor ve bir dosya eklendi"
+Yapılan değişiklikleri commit eder ve açıklama ekler.
+
 git push origin main
+Yapılan commit'i uzak depoya (GitHub) gönderir.
+
 git reset HEAD~1
- git reset --hard HEAD~1
+Son commit’i geri alır, ancak değişiklikler çalışma dizininde kalır.
+
+git reset --hard HEAD~1
+Son commit’i geri alır ve değişiklikleri tamamen siler.
+
+git checkout HEAD
+Çalışma dizinindeki değişiklikleri son commit’e geri alır.
+
+git pull
+Uzak depodaki değişiklikleri indirir ve yerel depo ile birleştirir.
+
+git branch şehmus
+Yeni bir branch (dal) oluşturur.
+
+git checkout şehmus
+Oluşturduğum yeni branch’e geçiş yapar.
+
+git checkout main
+Ana branch’e (main) geri döner.
+
+git merge şehmus
+"şehmus" branch’ini main branch’ine birleştirir.
 
  
