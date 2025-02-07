@@ -3,5 +3,7 @@ cd C:\Users\sehmu\Desktop\git-github-operations
 git add .
  git commit -m "iki farkli klasor ve bir dosya eklendi
 git push origin main
+git reset HEAD~1
+ git reset --hard HEAD~1
 
  
