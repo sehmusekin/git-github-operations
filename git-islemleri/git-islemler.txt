@@ -1,5 +1,7 @@
  git clone https://github.com/sehmusekin/git-github-operations.git
 cd C:\Users\sehmu\Desktop\git-github-operations 
 git add .
+ git commit -m "iki farkli klasor ve bir dosya eklendi
+git push origin main
 
  
